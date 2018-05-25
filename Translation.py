@@ -25,6 +25,7 @@ class translation(object):
         wordlist = Wordlist(self.Modify.modifyphrase(phrase).rsplit())
         if wordlist.length == 1:
             aaaaaa = self.wordtrans(wordlist[0].SourceContext)
+            wordlist[0].transTag = 0
             return aaaaaa,wordlist.transTag(),self.log
         wordlist = self.Modify.ModifyWordlistBf(wordlist)
         unkown = wordlist.CheckinRule(self.RuleMapping.EN2CN_Name, 1)
@@ -127,8 +128,22 @@ class translation(object):
             res.append(st)
         return res
 
-    def filetrans(self,file):
-        pass
+    def filetrans(self, file):
+        path_in = "static/file/upload"
+        path_out = "static/file/trans_result"
+        f_in = open(path_in+"/"+file,mode="r")
+        f_out = open(path_out+"/"+file,mode="w")
+        for line in f_in:
+            a = line
+            try:
+                res = self.phrasetrans(a)
+            except :
+                context = a[:-1]+"\t"+"Error：音标生成错误"+"\n";
+                f_out.write(context)
+                continue
+            context = a[:-1]+"\t"+res[0]+"\n";
+            f_out.write(context)
+
         
 def readgb():
     import pandas as pd
@@ -177,5 +192,9 @@ def communicate2bashtest():
     s = subprocess.Popen([r".\PowerShellCmd\Mosebyword.bat", "mosesdecoder/bin/moses -f  mert-work/moses.ini"], stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
     stdoutdata, _ = s.communicate(input="a b a n a n".encode("utf-8"))
 
+def filetranstest():
+    Translation = translation("./rule")
+    Translation.filetrans("sample.txt")
+
 if __name__ == '__main__':
-    communicate2bashtest()
+    filetranstest()

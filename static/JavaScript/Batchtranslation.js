@@ -10,12 +10,13 @@ var Batchtranslation = function () {
         'height': 100,
         'method': 'POST',
         //'uploadScript': "publishInfo/parseUploadData.action?filetype=file&pubtype=" + $('#file-pubtype').val() + "&rand=" + Math.random(),
-        'uploadScript': "http://localhost:5555/upload",
+        'uploadScript': "/upload",
         //'uploadScript': '/File/UploadFile',
         'queueID': 'uploadProgress1',//文件列队
         'queueSizeLimit': 100,//上传的最大数量
-        fileType: "txt/*",
+        "fileType": "txt/*",
         'multi': true,
+        "formData":{'enctype' : 'multipart/form-data'},
         'buttonText': '文件上传',//按钮显示文字
         'onUpload': function (file) {
             // 隐藏信息提示框，显示上传文件队列

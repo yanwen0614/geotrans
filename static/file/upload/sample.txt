@@ -1,0 +1,685 @@
+White Loch of Myrton
+Trew and Moy Station
+Tree o' the House
+Thorpe on the Hill
+Stanford in the Vale
+Mouth of the Severn
+Reigate and Banstead District
+London Bridge Railway Station
+Leeds and Liverpool Canal
+Geo of the Lame
+Mouth of the Humber
+Stack of the Horse
+Hope and Pen-y-ffordd Station
+High Barnet Underground Station
+Harrow on the Hill
+East and West Ridings
+Newton of Dalvey Farm House
+Beinn a' Chaisgein Beag
+Burton on the Wolds
+Barmby on the Marsh
+Loch Bad an Sgalaig
+City and Borough of Leeds
+City and Borough of Salford
+Llanmelin Wood Lesser Enclosure
+Butlers Marston Round Hill
+Cleobury Mortimer Castle Toot
+North Elmham Bishops Castle
+Coed Allt y Tywood Mound
+Castell Tal y Fan
+Church of St Mary Belfry
+Mary le Bone Hill
+Colmworth Manor and Motte
+Old Callaly Castle Hill
+Sherburn in Elmet Castle Hill
+Old Hunstanton Old Church Mound
+Welton le Marsh Castle Hill
+Stockton on the Forest Castle Hill
+Southampton Town Wall and Gods House Tower
+St Bees Priors Pele
+Lanercost Priory - Priors Tower
+Norwich City Wall and Cow Tower
+West Witton Penhill Beacon
+Firswood Manchester Sir Matt Busby Way
+Health & Community Hospital
+East Devon NHS Primary Care Trust
+North & East Devon Partnership NHS Trust
+Chard & District Hospital
+Somerset Partnership NHS Social Care Trust
+Isle Of Wight Community Healthcare NHS Trust
+Highclere Drug Detoxifications Unit
+Basingstoke & Alton Cardiac Rehabilitation Centre
+Day Hospital Princess Of Wales
+Cardigan & District Memorial Hospital
+Wye Valley Nuffield Hospital The
+Wiltshire Shared Services N H S Consortium
+Charlton Lane Acute Mental Illness Unit
+St Annes Orchard Psychiatric Day Hospital
+Oxford Centre For Foot & Ankle Medicine
+King Edward VII Hospital
+Arundel & District Hospital
+West Sussex Breast Screening Service
+Coombe Wing Private Patients Unit Kingston Hospital
+South West London & St Georges NHS
+Nuffield Hospital Haywards Heath
+Maidstone & Tunbridge Wells NHS Trust
+East Sussex County Healthcare NHS Trust
+Spire St Saviours Hospital
+British Home & Hospital For Incurables
+Elizabeth Garrett Anderson Hospital For Women
+BMI The Manor Hospital
+Eastman Dental Hospital & Institute
+Orsett Minor Injury Unit
+Chase Farm Hospitals NHS Trust
+Saffron Walden Community Hospital
+Jones Robert & Hunt Agnes
+Bishops Castle Community Hospital
+Blackpool Wyre & Fylde Community Health Services NHS Trust
+North Staffordshire Nuffield Hospital The
+Rodney House Assessment Centre
+Priory Hospital Lancashire The
+Arran War Memorial Hospital
+Randolph Wemyss Memorial Hospital
+Ian Charles Cottage Hospital
+Patient Advice And Liaison Service
+Royal Leamington Spa Rehabilitation Hospital
+Walsgrave Hospitals NHS Trust
+Market Harborough & District Hospital
+Leicestershire Partnership NHS Trust
+St Lukes Hospital 01274 734744
+Peel Court Rehab Unit
+St James University Hospital
+Northern Centre For Cancer Treatment
+Barnsley Community & Priority Services N H S Trust
+South Tyneside District Hospital
+Malton Norton & District Hospital
+Bridgend Industrial Estate Queens Rd
+St James CE VA
+Glasgor University Art Gallery
+Jessons CE VA Primary
+Freezland Primary School. High Grove Road OLDHAM
+Grove House Primary.BD2 4 Myers Lane BRADFORD
+Chapel Allerton Primary School
+Tockwith S Field Lane
+Shrivenham Park Golf Club
+Carlisle Lake District Airport
+Greenham Common Royal Air Force Base
+The Worsley Arms Hotel
+The Mercure Brigstow Bristol Hotel
+TL NORTHAMPTON UPTON WAY
+Days Inn South Mimms
+Hilton East Midlands Airport
+Dunadry Hotel And Country Club
+CARNOUSTIE GOLF COURSE HOTEL AN
+Holiday Inn Coventry M6
+Holiday Inn Hemel Hempstead M1-J8
+Newcastle Marriott Gosforth Park
+Park Plaza Sherlock Holmes (Executive)
+Premier Travel Inn Docklands
+Holiday Inn Kensington Forum
+Crowne Plaza Manchester Airport
+Euro Hostel Edinburgh Halls
+DoubleTree by Hilton Hotel Bristol North
+Worsley Park Marriott Hotel and Country Club
+DoubleTree by Hilton Hotel Southampton
+47 Park Street by Marriott Grand Residence Club
+Fairways Lodge & Leisure Club
+Royal Garden Hotel - A Summit Hotel
+Best Western Salford Hall
+The Grand at Trafalgar Square
+St Christopher's Shepherd's Bush
+Swallow White Hart Hotel
+Marriott Ncl Gosforth Pk
+EQ-2, The Fountain Court Group
+Hilton St Annes Manor Bracknel
+De Vere Shaw Ridge Swindon
+Macdonald Forest Hills Hotel
+Campanile Dartford Se London
+Ramada Encore Swansea Bay
+Premier Travel Inn Heathrow
+Best Western Park Hall Hotel
+Berkeley Park Apartments By BridgeStreet
+Ye Olde Bell Hotel
+HASTINGS SLIEVE DONARD HOTEL
+Tl Bristol Cribbs Causeway
+BEST WESTERN STOKE TRENT MOAT
+Hall Garth Hotel And Golf Club
+ROYAL COURT AND COUNTRY HOUSE
+BEST WESTERN VICTORIA SQUARE
+THE SWALLOW ARGYLL HOTEL
+PARK VIEW GUEST HOUSE
+THE OLD LODGE HOTEL
+RAVEN HALL COUNTRY HOUSE HOTEL
+Best Western Reeds Hotel
+GREAT JOHN STREET HOTEL
+BEST WESTERN FOLEY ARMS HOTEL
+LONDON GATWICK AIRPORT PREMIER
+DOCKLANDS EXCEL PREMIER TRAVEL
+The Beaufort Park Hotel
+BEST WESTERN SALFORD HALL HTL
+BEST WESTERN FRENSHAM POND
+Best Western Crown Hotel
+Best Western Diplomat Hotel
+Best Western New Holmwood
+St Pancras International Railway Station
+University College London Sports Ground
+Cantref Adventure Farm and Riding Centre
+Ebbsfleet International Railway Station
+The International Convention Centre
+Stanley Rangers Rugby Club
+Robin Hood Primary School
+Lee Moor Road/Canal Lane
+Petts Wood Railway Station
+Eden Park Railway Station
+Elmers End Railway Station
+Kent House Railway Station
+Jurys Inn Edinburgh Hotel
+Radisson Edwardian Grafton Hotel
+Central Park Hotel Finsbury Park
+Holiday Inn Camden Lock
+St. Giles Hotel Heathrow
+Crowne Plaza London The City
+Express By Holiday Inn Edinburgh-Waterfront
+The Cairndow Stagecoach Inn
+Park Inn Cardiff City Centre
+The Princess On Portland
+Coombe Lane Tramlink Stop
+Gravel Hill Tramlink Stop
+Phipps Bridge Tramlink Stop
+New Cross Gate Railway Station
+Woolwich Arsenal DLR Station
+Three Oaks Railway Station
+Farningham Road Railway Station
+Borough Green & Wrotham Railway Station
+Abbey Wood Railway Station
+Gatwick Airport Railway Station
+Rowlands Castle Railway Station
+Dorking Deepdene Railway Station
+Portsmouth & Southsea Railway Station
+Fancott Arms Public House
+Ramsey Manor Lower School
+St. Mary Magdalene church
+The Chequers public house
+Express By Holiday Inn Dunfermline
+Holiday Inn Express Newcastle City Centre
+Express By Holiday Inn Stirling
+Jurys Inn Milton Keynes
+Hotel Novotel Glasgow Centre
+Alexandra Palace Railway Station
+Bamber Bridge Railway Station
+Bangor Railway Station, Northern Ireland
+Battersea Park Railway Station
+Belle Vue Railway Station
+Bescot Stadium Railway Station
+Blackpool Pleasure Beach Railway Station
+Bootle New Strand Railway Station
+Brinsford Parkway Railway Station
+Bromley Cross Railway Station
+Bruce Grove Railway Station
+Cardiff Bay Railway Station
+Cardiff Queen Street Railway Station
+Cark And Cartmel Railway Station
+Christ's Hospital Railway Station
+Cobham & Stoke D'Abernon Railway Station
+Cradley Heath Railway Station
+Cross Gates Railway Station
+Dean Lane Railway Station
+Denham Golf Club Railway Station
+Dinas Powys Railway Station
+Duke Street Railway Station
+Dumbarton East Railway Station
+Edinburgh Waverley Railway Station
+Effingham Junction Railway Station
+Emerson Park Railway Station
+Falkirk Grahamston Railway Station
+Forest Gate Railway Station
+Furze Platt Railway Station
+Gilfach Fargoed Railway Station
+Great Yarmouth Railway Station
+Hag Fold Railway Station
+Hawarden Bridge Railway Station
+Hertford North Railway Station
+Hillington East Railway Station
+Hillington West Railway Station
+Hopton Heath Railway Station
+Hornbeam Park Railway Station
+Humphrey Park Railway Station
+Hunts Cross Railway Station
+Kempton Park Railway Station
+Kents Bank Railway Station
+Kiveton Park Railway Station
+Lelant Saltings Railway Station
+Llandudno Junction Railway Station
+London Road Railway Station
+Long Buckby Railway Station
+Lympstone Commando Railway Station
+Lympstone Village Railway Station
+Manchester Airport Railway Station
+Manchester United FC Halt
+Mitcham Eastfields Railway Station
+Mount Florida Railway Station
+New Cumnock Railway Station
+Newton St Cyres Railway Station
+North Woolwich Old Station Museum
+Oldham Mumps Railway Station
+Perth Railway Station, Scotland
+Pollokshields East Railway Station
+Portsmouth And Southsea Railway Station
+Queens Road Peckham Railway Station
+Rectory Road Railway Station
+Rose Hill Marple Railway Station
+St Budeaux Ferry Road Railway Station
+St Helens Central Railway Station
+Salford Central Railway Station
+Shepherd's Bush Railway Station
+Stourbridge Junction Railway Station
+Strawberry Hill Railway Station
+Taffs Well Railway Station
+Tame Bridge Parkway Railway Station
+Thorne North Railway Station
+Thorne South Railway Station
+Upper Tyndrum Railway Station
+Upper Halliford Railway Station
+Waltham Cross Railway Station
+Wandsworth Town Railway Station
+West Allerton Railway Station
+West Hampstead Railway Station
+West Runton Railway Station
+Wylde Green Railway Station
+Boston Manor Underground Station
+Goodge Street Underground Station
+Ladbroke Grove Underground Station
+Lambeth North Underground Station
+London Bridge Underground Station
+Manor House Underground Station
+Park Royal Underground Station
+Seven Sisters Underground Station
+Shepherd's Bush Underground Station
+Shepherd's Bush Market Underground Station
+South Ruislip Underground Station
+South Wimbledon Underground Station
+South Woodford Underground Station
+Stepney Green Underground Station
+Turnpike Lane Underground Station
+West Harrow Underground Station
+Westbourne Park Underground Station
+Edgware Road Underground Station
+St Mary's Bay Railway Station
+Sheffield Park Railway Station
+Mendip Vale Railway Station
+Canning Town Underground Station
+St Mary & St Lawrence
+St John the Evangelist
+M25 Junction 10 / A3
+Courthill Loop Junction South
+exp by holiday inn knowsley
+express by holiday inn
+Holiday Inn Express London Chingford
+express by holiday inn metro
+express by holiday inn norwich
+hotel menzies cambridge y campo de golf
+hotel quay y balneario
+St Peter and St Paul
+luton hoo golf spa
+sky plaza cardiff airport
+Westerglen transmitting station, Mast 3
+HVDC Moyle - Ballycronan More Static Inverter Plant
+380kV Thames Crossing, Tower North
+VLF transmitter Rugby, Mast 5
+Caradon Hill Transmitting Station
+Chrystal Palace Transmitting Station
+Basingstoke and Deane District
+Old Byland and Scawton
+Iwerne Courtney or Shroton
+Appleton East and West
+Somerleyton, Ashby and Herringfleet
+Macclesfield Forest and Wildboarclough
+Shardlow and Great Wilne
+Kinmel Bay and Towyn
+Middleton on the Hill
+Long Whatton and Diseworth
+Llanfihangel Cwmdu with Bwlch and Cathedine
+Stretton en le Field
+Thorpe on the Hill
+Cliffe and Cliffe Woods
+St. Cosmus and St. Damian in the Blean
+St. Mary Out Liberty
+Aubourn Haddington and South Hykeham
+Fritton and St. Olaves
+Forest Hill with Shotover
+St. Georges and Priorslee
+Ellington High and Low
+Toft with Lound and Manthorpe
+Moreton Corbet and Lee Brockhurst
+Nettleden with Potten End
+Chinley, Buxworth and Brownside
+East Dean and Friston
+Ecchinswell, Sydmonton and Bishops Green
+Barwick in Elmet and Scholes
+Old Hutton and Holmescales
+Little Ponton and Stroxton
+Brent Cross tube station
+Brownsea Island Scout camp
+Sixfields Stadium, Northampton Town
+Star Point Transmitter, Mast South
+Burnaston Lane Mediumwave Transmitter, Mast Southeast
+MidKent College - Medway
+Maidstone Adult Education Centre
+Langley Mill Mediumwave Transmitter. Mast 3
+Greenside Mediumwave Transmitter, Mast West
+Ashton Moss Mediumwave Transmitter, Mast 1
+Ashton Moss Mediumwave Transmitter, Mast 4
+Farlington Marshes Mediumwave Transmitter
+Row Bow Mediumwave Transmitter
+Orfordness Transmitter ( 1296 kHz), Tower 4
+Swan Pool Mediumwave Transmitter, Mast West
+Swan Pool Mediumwave Transmitter, Mast East
+Whitehaven Mediumwave Transmitter, Mast West
+West Norwood Library Centre
+Highbury Vale Tram Stop
+High School Tram Stop
+Moor Bridge Tram Stop
+Wednesbury Great Western Street
+Rigby Road The Manchester
+St Georges Cross SPT Subway Station
+Govan SPT Subway Station
+West Street SPT Subway Station
+Ecotech Swaffham Wind Turbine
+Eldon Square bus station
+Whitby station bus stop
+RNAS Inskip, Mast 2
+Tesco Express Oakridge Road
+Dundrum Inner Bay North
+Franklin's Gardens, Northampton Saints
+Royal College of Art
+St Fagans: National History Museum
+Stob Coire an Laoigh
+Stob Poite Coire Ardair
+Bristol (Whitchurch) Airport (historical)
+Royal Air Force Bodffordd
+Best Western Ambleside Salutation
+Best Western Argyll Hotel
+Best Western Belmont House Hotel
+Best Western Chiswick Palace & Suites
+Best Western Cresta Court
+Best Western Crianlarich Hotel
+Best Western George Hotel
+Best Western Glenspean Lodge Hotel & Restaurant
+Best Western Greater London
+Best Western Ivy Hill Hotel
+Airth Castle & Spa Resort
+Best Western Mosborough Hall
+Best Western New House Country Hotel
+Best Western Plus Centurion Hotel
+Best Western Plus Coniston Hotel
+Best Western Summerhill Hotel And Suites
+Best Western White Hart Hotel
+Blue Rainbow Aparthotels Edinburgh
+Brook Mollington Banastre Hotel & Spa
+Chevin Country Park Hotel & Spa
+Clarion Collection Hotel St. Albans
+Comfort Inn Hyde Park
+Crowne Plaza Hotel Liverpool City Centre
+Days Hotel Chester North
+Days Inn Bristol M5
+DoubleTree By Hilton Hotel Dundee
+Dreamhouse Apartments Edinburgh City Centre
+Dreamhouse Apartments London City
+Express By Holiday Inn Poole
+Express By Holiday Inn Washington Tyn
+Express Holiday Inn Birmingham South
+Fraser Place Canary Wharf
+Hall Garth Hotel. Golf & Spa
+Holiday Inn Aberdeen Exb Centr
+Holiday Inn Aberdeen West
+Holiday Inn Darlington - A1 Sc
+South Yorkshire Aircraft Museum
+Holiday Inn Express Antrim
+Holiday Inn Express Colchester
+Holiday Inn Express Folkestone-Channel Tunnel
+Holiday Inn Express Heathrow T5
+Holiday Inn Express Hull City
+Holiday Inn Express London-Eps
+Holiday Inn Express Tamworth
+Holiday Inn London Gatwick - W
+My Apartments Canning Street
+Travelodge Central Waterloo Place
+Killyhevlin Hotel & Health Club
+Knavesmire Manor Hotel & Leisure
+La Basilica De San George'S Victoria
+Legacy White Hart Hotel
+Lindeth Howe Country House
+London Edition (Deluxe Room)
+Marriott St Pierre Park
+Mercure Chester North Hotel
+Mercure Milton Keynes Abbey Hill Hotel (Opening January 2013)
+Mercure Peebles Barony Castle
+Morgan Lodge Apartments - Eaton House
+The Crown Manor House
+The Felbridge Hotel And Spa
+The Glen Mhor Apartments
+The Langdale Hotel & Spa
+Park Inn By Radisson
+The Re London Hotel Shoreditch
+Pontins Camber Sands Holiday Park Classic Chalet
+Powdermills Country House Hotel
+The Ugadale Hotel & Cottages
+The Waterfoot Country Club
+Think Apartments Tower Bridge
+Racing Sea Horses B&B
+Tracy Park Hotel & Country Club
+Travelodge Manchester Central Arena
+Tune Hotel King Cross
+Ramada Encore Inverness City C
+Whitley Hall Country House Hotel
+Yanns At Glenearn House
+St Michaels Inn Hotel
+Smart Hyde Park Inn
+Park Inn by Radisson Bedford
+Park Inn by Radisson Palace Southend on Sea
+River Medway at Yalding
+New Malden Baptist Church
+Nafferton Wold Quarry (Chalk)
+Ffrith Beach Arena Park
+West Stow Anglo-Saxon Village
+Wealdstone Football Club Ground
+Netley Park N T
+Little Fen Interline (Drain)
+Churchdown Park Recreation Ground
+Smart Backpackers - Hyde Park Inn
+Park Inn By Radisson Manchester City Centre
+Park Inn By Radisson Peterborough
+DoubleTree by Hilton Hotel Bristol City Centre
+Premier Travel Inn Cardiff North
+Rennie Mackintosh Art School Hotel
+Fountain Court Grove Aparthotel
+Travelodge Rose Street Hotel
+Edinburgh First - Holland House
+The Haughs Farm Guest House
+The Pines Country House
+Holiday Inn Darlington - A1 Scotch Corner
+Holiday Inn Milton Keynes -East M1,Jct.14
+Nent Hall Country House
+Best Western Glendower Promenade
+Best Western Moor Hall Hotel & Spa
+Express By Holiday Inn London-Wimbledon-South
+Premier Inn Heathrow Airport
+St Giles Feltham Heathrow
+Barcelo Billesley Manor Hotel
+Hotel Brook Honiley Court
+Mercure Milton Keynes Parkside House
+Days Hotel Gatwick (Ex Skylane Gatwick)
+Holiday Inn Brentwood M25, Jct.28
+Best Western Pinewood On Wilmslow
+Express By Holiday Inn City (London)
+DoubleTree by Hilton Hotel London - Victoria
+The Dolphin - London
+Think Apartments Bermondsey Street
+Ibis Styles London Leyton (Previously All Seasons)
+Radisson Blu Edwardian Berkshire
+Citadines Prestige South Kensington London
+Holiday Inn Express Hull City Centre
+Holiday Inn Express Southampton M27 Jct 7
+Bristol Central Mitchell Lane
+Crown Plaza Ealing Hotel
+Holiday Inn Express Southampton West
+Holiday Inn Express Southampton M27 Jct7
+Days Inn Stevenage North
+Alit an Tuin Bhric
+Burn of Loch Brandy
+Savoy (River View Deluxe One Bed Suite)
+Hilton Grand Vacations Club Craigendarroch
+Crowne Plaza Birmingham N.E.C Hotel
+De Vere Deluxe Cameron House
+Best Western Plus Dover Marina Hotel & Spa
+Hampton by Hilton London Luton Airport
+Holiday Inn London Kingston South
+The Queens Gate London Hotel (Ex-Abba)
+S.M. Guy Memorial Playing Field
+Loch Coire an Lochain
+The Z Hotel Victoria
+Olympic House Apartments Hotel
+Edinburgh Apartments Queen Street
+Murrayshall House Hotel & Golf Course
+Pontins Prestatyn Sands Holiday Park
+The Light Boutique Aparthotel
+Best Western Plus Orton Hall H
+Shrigley Hall Hotel The Hotel Collection
+Britannia Inn Mansfield Road
+Doubletree By Hilton London Westend
+Best Western Premier Mount Pleasant Hotel
+Savoy (Junior Suite Special Offer)
+Hilton Warwick / Stratford-upon-Avon
+Access Apartments Maida Vale
+St Giles London St Giles Classic Hotel
+Rosewood London (Executive )(Sp2)
+Holiday Inn Express Stafford M6 Jct 13
+Days Inn Corley Nec
+Four Seasons At Macdonald Aviemore Resort
+Academy Hotel At Macdonald Aviemore Resort
+Amba Charing Cross Hotel
+Oxford Hotel The Hotel Collection
+The Lost Gardens of Heligan
+Best Western Plus Knights Hill
+Best Western Plus Keavil House
+Holiday Inn Express M5 Jct29
+Holiday Inn Express Manchester Arena City Centre
+Days Hotel Chester North Gateway To Wales
+Ritz London Deluxe Suite
+Storrs Hall On The Lake I
+Alderman Apartments Cotham Lawn
+Luccombe Manor Country House Hotel
+The View At The White Horse Woolley Moor
+Trimstone Manor Country House Hotel
+Go Native Tower Bridge
+Formby Hall Golf Resort & Spa
+The Fox Country Inn
+Arties Mill & Lodge
+Five Kings - Hsd
+The Connaught Lodge Hotel
+Sir Christopher Wren Hotel & Spa
+Holly Lodge Guest House
+The Littleover Lodge Hotel
+Leaded Light - Guest House
+The Regency Bristol Hotel
+The Warwick Guest House
+Inn At The Park Hotel
+Holiday Inn Express London - Excel
+Park View Guest House
+Willow Dene - Hostel
+Aquae Sulis - B&B
+The Royal Trafalgar By Thistle
+Holiday Inn Express London Ham
+Millennium And Copthorne Hotels At Chelsea Footbal
+Holiday Inn Express London Croydon
+Holiday Inn London Kings Cross Bloomsbury
+Blue Rainbow Apartments Edinburgh Royal Garden
+Hotel Jury S Inn Belfast
+The Legacy Cardiff International
+Holiday Inn London Watford Junction
+Ibis London Thurrock M25
+Holiday Inn Cardiff North M4 Jct 32
+St Thomas of Canterbury and the English Martyrs Roman Catholic Church
+St Andrew and Blessed George Haydock Roman Catholic Church
+Our Lady of Lourdes Roman Catholic Church
+St Anthony Roman Catholic Church
+Christ the King Roman Catholic Church
+Our Lady of the Lakes and St Charles Borremeo Roman Catholic Church
+St Mary Roman Catholic Church, Morecambe
+Our Lady Star of the Sea Roman Catholic Church
+St Mary Roman Catholic Church, Ulverston
+St Benedict Roman Catholic Church
+Bridge Of Orchy Hotel
+Tudor Park A Marriott Hotel and Country Club
+Holiday Inn Express Peterborough
+Crowne Plaza Liverpool John Lennon Airport
+Holiday Inn Express Stoke On Trent
+Holiday Inn Express Birmingham Nec
+Huttons Hotel Non Refundable Room
+County Hotel Shared Facilities
+Gleddoch House Hotel and Country Estate
+Macdonald Elmers Court Hotel and Resort
+Village Hyde East Manchester
+Premier Inn Manchester Old Trafford
+Arnieandapos S Guest House
+Premier Inn Balsall Common
+Skene House Holburn Suites
+Leverhulme Hotel and Spa
+Holme Leigh Guest House
+Beech Mount Executive Accomodation
+The Oxfordshire Golf Hotel and Spa
+Premier Inn Cardiff City Centre
+Heriott Park Guest House
+Innkeeper S Lodge St Albans
+Premier Inn Glasgow North East
+Crowne Plaza Birmingham Nec Parking
+Ye Olde Station Guest House
+The Railway Guest House
+Old Rose and Crown
+Romley House Bed and Breakfast Accommodation
+Premier Inn York City
+Church View Bandb and Holiday Cottages
+Corona Apartments By Bridgestreet Worldwide
+Club Quarters Trafalgar Square
+Canary Central By Bridgestreet
+The Ship and Castle
+Premier Inn Bristol Cribbs Causeway
+Holiday Inn Bristol Airport Parking
+Marriott Victoria and Albert
+The Slaughters Country Inn
+The Exhibitionist Hotel Prefer
+Royal Hotel and Lodge
+South Marston Hotel and Leisure
+Crowne Plaza Liverpool City Ce
+Marriot Residence Inn Edinburgh
+Corus Hotel Solihull The Regency
+Hampton By Hilton Braintree
+All Seasons London Southwark Rose
+Holiday Inn Darlington North
+Radisson Blu Edwardian Hotel At Heathrow London
+Small River Lee or Lee
+St. Mary's Church, Shapwick
+Redoubt Fortress and Military Museum
+Katie and George Park
+Lamberhurst Strict Baptist Church
+Milton Keynes Bus Station
+Premier Inn Birmingham M6 - J7
+Premier Inn Manchester Cheadle
+Bennett Memorial Diocesen School
+Shepherd's Bush Boutique Hotel
+Queens Head (Public House)
+Back Row (demolished circa 1960's)
+Causeway Coast and Glens
+Hampton by Hilton Aberdeen Airport
+DoubleTree by Hilton Hotel at the Ricoh Arena - Coventry
+East Goodwin Lightship (historical)
+Great Ormes Head Lighthouse (historical)
+Southend Pier Lighthouse (historical)
+Fairway Buoy No. 3
+Northwest Shingles Buoy (historical)
+Little Cumbrae Light (historical)
+Ard Buoy No. 8
+Alderley Edge Golf Club
+Holywell Bay Fun Park
+Saffron Walden Golf Club
+Dounreay Nuclear Power Development Establishment
