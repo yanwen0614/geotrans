@@ -1,0 +1,6 @@
+__pycache__/
+binarised-model/
+.vscode/
+lm/
+mert-work/
+mosesdecoder/

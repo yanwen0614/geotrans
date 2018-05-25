@@ -1,0 +1,75 @@
+/*---------zoomslider---------*/
+#mapPublishDiv .ol-zoomslider-thumb{
+	left:2px;
+	background:url(images/extend/navtool.png) -9px -314px;
+}
+#mapPublishDiv .ol-zoomslider-street{left: 30px;top: 38px;position:absolute;
+	width:16px;height:16px;font-size:12px;cursor:pointer;}
+
+#mapPublishDiv .ol-zoomslider-city{left: 30px;top: 78px;position:absolute;
+	width:16px;height:16px;font-size:12px;cursor:pointer;}
+
+#mapPublishDiv .ol-zoomslider-province{left: 30px;top: 101px;position:absolute;
+	width:16px;height:16px;font-size:12px;cursor:pointer;}
+
+#mapPublishDiv .ol-zoomslider-country{left: 30px;top: 123px;position:absolute;
+	width:16px;height:16px;font-size:12px;cursor:pointer;}
+#mapPublishDiv .ol-zoomslider-front{background:url(images/extend/navtool.png) no-repeat -46px bottom;top:29px;left:0px;position:absolute;height:123px;width:6px;
+	left:11px;}
+#mapPublishDiv .ol-zoomslider-back{background: url(images/extend/navtool.png) no-repeat -35px -231px; top:0px;left:0px;position:absolute;height:123px;width:6px;
+	left:11px;}
+
+/*--------ͼ����ʽ-----------*/
+.legend-div {
+	bottom: 0px;
+	left:0px;
+}
+.legend-border{
+	border:1px solid #ccc;
+	padding: 5px;
+	background: white;
+}
+.legend-title{
+	font-size: 12px;text-align: center;width: 100%;height: 25px;line-height: 25px;margin-bottom: 5px;font-weight: bold;
+}
+.color-box{
+	width: 20px;height: 20px;border: 1px solid #ccc;float: left;
+}
+.label-box{
+	width: 100px;float: left;height: 20px;line-height: 20px;text-align: left;font-size: 10px;margin-left: 5px;
+	white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;cursor: default;
+}
+.legend-clearline{
+	clear: both;margin-top:3px;
+}
+
+/*-------------������ʽ---------------*/
+.tools-div{border: 1px solid #666;top:20px;right:20px;background: #fff;text-align: center;cursor: pointer; padding: 0;border-radius:0;}
+.tools-div:hover{background: white;}
+.tools-div .tools-header{width: 48px;height: 24px;top: 0px;line-height: 25px;font-size: 12px;font-weight: bold;  }
+.tools-div .tools-header:hover{background-color: white}
+.tools-div ul{display: none;padding: 0 0 0 1px;margin: 0;}
+.tools-div ul li{height: 24px;line-height: 24px;color: #666;font-size: 12px;margin-top:0px;width: 48px;  }
+.tools-li-border-right{border-right: 1px solid #999;/*margin-left: 1px;*/  }
+.tools-div ul li:hover{background-color: #0da0ff;color: white;  }
+.tools-labelandicon{padding-left: 17px;background-position: 3px 5px;background-repeat: no-repeat;  }
+.tools-labelonly{  }
+.tools-icononly{background-position: 5px 5px;background-repeat: no-repeat;  }
+.tools-icononly-header{background-position: center 5px;background-repeat: no-repeat;  }
+.tools-style-h{float: right;  }
+.tools-style-v{  }
+.tools-style-h .tools-labelandicon{width: 48px;  }
+.tools-style-h .tools-labelonly{width: 30px;  }
+.tools-style-h .tools-icononly{width: 25px;  }
+
+/*-------------Ӱ���л�����------------------*/
+.ol-mapswitcher {position:absolute;top:60px;right:20px;width:50px;height:50px;z-index:800;border: 1px solid #666;font-size: 13px;background:url(../ol3/images/extend/tool_img.PNG) repeat-x 0 0;cursor: pointer;  }
+.ol-mapswitcher .maptype-text{width: 48px;height: 20px;margin-top: 28px;background: #000;color: white;font-weight:bold;cursor: pointer; text-align: center;line-height: 20px;  filter:alpha(opacity=50);  -moz-opacity:0.5;  -khtml-opacity: 0.5;  opacity: 0.5;}
+.vec-group{background: url("../ol3/images/extend/tool_vector.PNG") repeat-x 0 0 ;}
+.img-year-number { width:50px;border: 1px solid #666;line-height: 25px;display: none;margin:10px 0 0 -1px;background: white;  }
+.img-label{cursor: pointer;width: 100%;height: 25px;vertical-align: middle;line-height: 25px;}
+.radio-img-label{vertical-align: -2px;margin-left:2px;}
+
+/*----------------------������λ��---------------*/
+.ol-scale-line{right:8px;left: auto;}
+

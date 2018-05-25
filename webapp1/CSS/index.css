@@ -1,0 +1,175 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font: 12px/180% Arial, Helvetica, sans-serif, "新宋体";
+}
+
+
+/*页眉样式*/
+.top-bg {
+    /*height:140px;*/
+    height:120px;
+    background:url('../images/index/banner.jpg') center center no-repeat;
+}
+/*页眉图片*/
+.top-image {
+    height:60px;
+    width:60px;
+    margin:35px 0 0 20px;
+    float:left;
+}
+/*页眉标题*/
+.top-title {
+    margin: 55px 0 0 20px;
+    float: left;
+    color: #2667b1;
+    display: block;
+    font-size: 40px;
+    font-family: "微软雅黑";
+}
+
+/*左侧主菜单*/
+#mainMenu{
+    width:90px;
+    background:#2667b3;
+}
+.btnLeft {
+    display: block;
+    padding: 20px;
+    color: #ececec;
+    cursor: pointer;
+    text-align: center;
+    background: #2667b3 no-repeat center 10px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+.btnLeft:hover {
+    background-color: #2a7dd1
+}
+.btnLeftSel, .btnLeftSel:hover {
+    background-color:#317ee8;
+    color: white;
+}
+/*注销按钮*/
+.btnQuit {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    padding: 0 25px 45px 25px;
+}
+/*左侧子菜单*/
+#menuPage{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*左侧子菜单单点翻译*/
+#selectlanguages{
+    margin:15px 0 5px 5px ;
+
+}
+/*输入框*/
+#input{
+    margin:2px 5px 0 5px;
+}
+/*输出框*/
+#output{
+    margin:50px 5px 0 5px;
+}
+#outputvalue{
+    border-color:#B0E0E6;
+    resize : none;/*去掉textarea右下角的东西*/
+}
+/*解释框*/
+#explain{
+    margin:2px 5px 0 5px;
+
+}
+#explainvalue{
+    background-color:#fafafa;
+    border:none;
+    font-family: sans-serif;
+    font-size:13px;
+    color:#5f5f5f ;
+    overflow: hidden;
+    resize : none;
+}
+/*文字样式*/
+.note1{
+    margin: 20px 0 0 7px;
+    float: left;
+    color: #2667b1;
+    display: block;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+/*翻译按钮样式*/
+#translationbutton{
+    margin:5px 5px 0 5px ;
+}
+#button{
+    position: fixed; //关键
+    bottom: 90px;
+    left: 100px;
+}
+
+
+
+/*左侧子菜单批量翻译*/
+/*文字样式*/
+.note2{
+    margin-left: 5px;
+    float: left;
+    color: #2667b1;
+    display: block;
+    line-height:40px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+.form-group{
+    margin:15px 5px 10px 5px;
+}
+#uploadTips1{
+    margin:15px 5px 5px 5px;
+}
+#uploadProgress1{
+    margin:15px 5px 5px 5px;
+}
+
+
+
+
+/*中间*/
+#mapDiv{
+    cursor: url('../images/map/openhand.cur'),auto;
+    width:100%;
+    height:100%;
+    background-color: gainsboro;
+    /*float:left;*/
+}
+
+
+
+
+/*页脚*/
+.bottom-bg{
+    height:50px;
+    background:#1c508d;
+    text-align:center;
+    color: #FFFFFF;
+    font-family: serif;
+    font-size: 12px;
+    padding-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

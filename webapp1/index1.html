@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>地名翻译</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="EasyUI/themes/metro-blue/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="EasyUI/themes/icon.css"/>
+
+    <link rel="stylesheet" type="text/css" href="CSS/index.css"/>
+
+    <link rel="stylesheet" type="text/css" href="CSS/uploadifive.css"/>
+
+    <link rel="stylesheet" type="text/css" href="ol3/ol.css"/>
+    <link rel="stylesheet" type="text/css" href="ol3/ol-extend.css"/>
+
+
+    <script type="text/javascript" src="EasyUI/jquery.min.js"></script>
+    <script type="text/javascript" src="EasyUI/jquery.easyui.min.js"></script>
+
+    <script type="text/javascript" src="EasyUI/jquery.uploadifive.min.js"></script>
+
+
+
+
+    <script type="text/javascript" src="JavaScript/nameindex.js"></script>
+    <script type="text/javascript" src="JavaScript/Singlepointtranslation.js "></script>
+    <script type="text/javascript" src="JavaScript/Batchtranslation.js "></script>
+
+    <script type="text/javascript" src="ol3/ol-debug.js"></script>
+
+
+
+
+</head>
+<body id="main_layout" class="easyui-layout" data-options="collapsible:'false'" >
+    <!--页眉-->
+    <div class="top-bg" data-options="region:'north',border:false,minWidth:1065" >
+        <!--页眉图片-->
+        <img class="top-image" src="images/index/earth.png" >
+        <!--页眉题目-->
+        <label class="top-title">
+            境 外 地 名 翻 译 系 统
+        </label>
+    </div>
+    <!--左侧-->
+    <div id="leftpanel" data-options="region:'west',border:false,Width:420,minWidth:90,maxWidth:650,split:true">
+                                                                                                            <!--split通过分割栏改变面板大小-->
+        <div id="menuLayout" class="easyui-layout" data-options="fit:true">
+            <!-- 主菜单 -->
+            <div id="mainMenu" data-options="region:'west',border:false,minHeight:300">
+                <label rightPanelId="menu1Page" centerPanelId="mappanel" class="btnLeft menu1 btnLeftSel">单点<br>翻译</label>
+                <label rightPanelId="menu2Page" centerPanelId="pubtablepanel" class="btnLeft menu2">批量<br>翻译</label>
+                <label rightPanelId="menu3Page" centerPanelId="usertablepanel" class="btnLeft menu3">系统<br>管理</label>
+                <!--注销按钮-->
+                <label class="btnQuit"><img src="images/index/power_noselect_24px.png"></label>
+            </div>
+            <!--子菜单-->
+            <div id="menuPage" data-options="region:'center'">
+                <!--单点翻译-->
+                <div id="menu1Page" class="menuPage" style="display: block; ">
+
+                    <div id="selectlanguages">
+                        <select  id="select" class="easyui-combobox" style="height:35px;width:120px;">
+                            <option value="aa">语种</option>
+                            <option>英语</option>
+                            <option>法语</option>
+                            <option>德语</option>
+                            <option>阿拉伯语</option>
+                            <option>西班牙语</option>
+                        </select>
+                    </div>
+                    <!--输入框-->
+                    <div id="input">
+                        <input type="text" value="" id="inputvalue"  class="easyui-textbox" data-options="multiline:true" style="width:100%;height:170px;" >
+                    </div>
+                    <label class="note1">
+                        中文地名
+                    </label>
+                    <!--输出框-->
+                    <div id="output">
+                        <textarea id="outputvalue" readonly="true" style="width:100%;height:130px;"></textarea>
+                    </div>
+                    <!--解释框-->
+                    <div id="explain">
+                        <textarea id="explainvalue" readonly="true" style="width:100%;height:100px;"></textarea>
+                    </div>
+                    <div id="translationbutton">
+                        <button id="button" type="button" class="easyui-linkbutton" style="width:120px;height:30px;">翻译地名</button>
+                    </div>
+
+                </div>
+                <!--批量翻译-->
+                <div id="menu2Page" class="menuPage" style="display:none;">
+                    <div id="menu21Page" class="subMenuPage">
+                        <!--保存路径-->
+                        <div class="form-group">
+                            <label class="note2">
+                                保存路径：
+                            </label>
+                            <input id="path" class="easyui-textbox"  style="width:100%;height:35px;" />
+                        </div>
+                        <!--上传-->
+                        <div id="filePicker"class = "uploadifive-button"></div>
+                        <!--注意-->
+                        <div id="uploadTips1" class="alert alert-success" role="alert"><!---->
+                            <a href="#" class="alert-link">
+                                <p>注意！</p>
+                                <p>上传文件格式为：<br>
+                                    1、文件格式为.txt。<br>
+                                    2、文件名为要调整的地名。<br>
+                                    3、文件正文第一行为调整日期，<br>&nbsp;&nbsp;格式为xxxx年xx月xx日。<br>
+                                    4、文件其它内容需包含调整内容和调整前后对比图。
+                                </p>
+                            </a>
+                        </div>
+                        <div id="uploadProgress1"></div>
+                        <!--取消、保存-->
+                        <div class="pubBottomBtn">
+                            <button id="btnPubCancel1" class="col-sm-5 btn btn-primary ">取消</button>
+                            <button id="btnPubSave1" class=" col-sm-5 btn btn-primary col-sm-offset-2">保存</button>
+                        </div>
+                    </div>
+                </div>
+                <!--系统管理-->
+                <div id="menu3Page" class="menuPage" style="display:none;"></div>
+            </div>
+        </div>
+
+    </div>
+    <!--中间-->
+    <div id="centerpanel" data-options="region:'center',border:false, minWidth:620">
+        <div id="mappanel">
+            <div id="mapDiv" rightClick='off'></div>
+        </div>
+
+
+    </div>
+    页脚
+    <div class="bottom-bg" data-options="region:'south',border:false">
+        研办：中国测绘科学研究院&nbsp;&nbsp;地址：北京市海淀区莲花池西路28号&nbsp;&nbsp;邮编：100830<br>
+        网站保留所有权，未经许可不得复制、镜像&nbsp;&nbsp;京ICP备05053822号
+        <!--&nbsp;&nbsp;京公网安备110401400035-->
+    </div>
+
+
+
+
+</body>
+</html>
