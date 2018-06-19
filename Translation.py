@@ -143,6 +143,8 @@ class translation(object):
                 continue
             context = a[:-1]+"\t"+res[0]+"\n";
             f_out.write(context)
+            f_out.flush()
+        f_out.close()
 
         
 def readgb():

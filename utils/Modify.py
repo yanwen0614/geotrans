@@ -4,6 +4,7 @@ try:
 except:
     from wordlist import Wordlist
     from RuleDict import *
+import re
 
 
 class Modify(object):
@@ -31,7 +32,7 @@ class Modify(object):
     
     def IPAmodify(self, ipastr):
         for k, v in self.IPARuledict.items():
-            ipastr = ipastr.replace(k, v)
+            ipastr = re.sub(k, v, ipastr)
         return ipastr
 
     def ArtModifyWordlist(self, wordlist):

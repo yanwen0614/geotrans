@@ -15,7 +15,7 @@ PhraseRuleDict = {
 
 IPARuleDict = {
         "tr": "t r ",
-        "iə": "i ə ",
+        "iə$": " i ə",
         "ɔi": "ɔ i ",
         "uə": "ə",
         "ɒ": "ɔ",
