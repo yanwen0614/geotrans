@@ -24,7 +24,7 @@ var Singlepointtranslation =function(){
         var input = $('#inputvalue').val().trim();
         $.ajax({
             type: "post",
-            url: "translation?source="+input, //Controller中的方法名
+            url: "http://localhost:5555/translation?source="+input, //Controller中的方法名
             data: { "input":input },     //要发送的数据
             dataType: "json",
             success: function(data) {
@@ -34,7 +34,7 @@ var Singlepointtranslation =function(){
                 //$('#explain').val(data.log);
                 var m=data.tag;
                 var n=m.toString();
-                console.log(n);
+                //console.log(n);
                 var k= n.replace(-1,"未翻译").replace(0,"音译").replace(1,"特殊字符").replace(2,"意译");
 
                 $('#explainvalue').val(k+"\n"+data.log);

@@ -6,39 +6,48 @@ __doc__ = '''modify的各种规则'''
 
 
 PhraseRuleDict = {
-            "'s": "",  
-            "-": "",
+            "'s": "",
+            "-": " ",
             "'": " ",
             "!": "",
-            "&":"and"
+            "&":"and",
         }
 
-IPARuleDict = {
+IPARuleDict = { # 为符合标准的音标调整
         "tr": "t r ",
         "iə$": " i ə",
+        "iə ": "ə ",
         "ɔi": "ɔ i ",
         "uə": "ə",
         "ɒ": "ɔ",
         "g": "ɡ",
         "dr ": "d r ",
+        "dr$": "d r",
         "a ": "ɑː ",
         "ɑ ": "ɑː ",
+        "ɑ$": "ɑː",
 }
 
-PrepReplaceRuleDict = {
+ConjReplaceRuleDict = { # 连词替换
         "and": "-",   # 4141
         "with": "-",  # 4132
 }
 
-PrepTranlstionRuleDict = {
-        "on": "中的",   
-        "at":"中的",
-        "by": "的的",
-        "in": "内的",
-        "upon": "上的",
-        "near": "边的",
-        "of":"",
+PrepPhraseInstanceTranlstionRuleDict = {
+        "on the sea": "滨海",
+        "on sea": "滨海",
+        "by the Sea":"海岸",
+        "next the Sea":"海岸",
+}
 
+PrepTranlstionRuleDict = {
+        "on": "中",
+        "at":"中",
+        "by": "的",
+        "in": "中",
+        "upon": "上",
+        "near": "边",
+        "of":"",
 }
 
 ArtRuleDict = {   # 412

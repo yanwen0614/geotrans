@@ -47,8 +47,8 @@ body {
 .btnLeft:hover {
     background-color: #2a7dd1
 }
-.btnLeftSel, .btnLeftSel:hover {
-    background-color:#317ee8;
+.btnLeftSel1{
+background-color:#317ee8;
     color: white;
 }
 /*注销按钮*/
@@ -66,7 +66,31 @@ body {
 /*左侧子菜单单点翻译*/
 #selectlanguages{
     margin:15px 0 5px 5px ;
+    float:left;
 
+}
+/*坐标输入*/
+#coordinate {
+    /*display:inline;*/
+    padding: 15px 0 5px 165px;
+}
+
+.note{
+    margin: 5px 5px 0 0;
+    float: left;
+    color:#2667b1;
+    display: block;
+    font-size: 18px;
+    /*font-family: "微软雅黑";*/
+}
+#coordinateinput{
+    margin: 0 5px 0 0;
+    float: left;
+    height:33px;
+ }
+#coordinatebutton{
+    height:33px;
+    width:100px;
 }
 /*输入框*/
 #input{
@@ -116,25 +140,39 @@ body {
 
 
 /*左侧子菜单批量翻译*/
-/*文字样式*/
-.note2{
-    margin-left: 5px;
-    float: left;
-    color: #2667b1;
-    display: block;
-    line-height:40px;
-    font-size: 20px;
-    font-family: "微软雅黑";
-}
 .form-group{
     margin:15px 5px 10px 5px;
 }
+#uploadifive-filePicker{
+    top:45px;
+}
 #uploadTips1{
-    margin:15px 5px 5px 5px;
+
+    margin:55px 5px 5px 5px;
 }
 #uploadProgress1{
-    margin:15px 5px 5px 5px;
+    margin:55px 5px 5px 5px;
 }
+/*下载按钮*/
+#upload{
+    margin:0 0 0 5px;
+    width:120px;
+    height:35px;
+
+}
+
+/*左侧子菜单系统管理*/
+.rightpanel_btn {
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    line-height: 140px;
+    font-size: 14px;
+    background: no-repeat center 10px;
+    margin: 50px auto;
+}
+
 
 
 
@@ -149,6 +187,73 @@ body {
 }
 
 
+/*表格样式---以下有些样式不需要*/
+.datagrid-row {
+    height: 42px;
+}
+.datagrid-header td, .datagrid-body td, .datagrid-footer td {
+    border-width: 0 1px 1px 0;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+.datagrid-header {
+    height: 42px;
+    background-color: #f8f8f8;
+    border-style: none;
+}
+/*设置easyui-datagrid长文本行末尾省略*/
+.datagrid .panel-body {
+    background-color: #FFFFFF;
+}
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
+    text-overflow: ellipsis;
+}
+.datagrid-td-rownumber {
+    background-color: rgba(255, 255, 255, 0);
+}
+.datagrid .panel-header, .datagrid-header, .datagrid-htable {
+    height: 40px;
+}
+.datagrid .panel-title {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: serif;
+    color: #404040;
+    height: 16px;
+    line-height: 28px;
+}
+.combo-arrow {
+    background-color: transparent;
+}
+.textbox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.calendar-header {
+    background: transparent;
+}
+.btn-primary {
+    background-color: #317ee8;
+    border-color: #317ee8;
+}
+.messager-window .panel-title{
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.messager-window .l-btn {
+    color: #fff;
+}
+
+
+.show-label {
+    margin: 20px 0 5px 0;
+    font-family: serif;
+}
+.show-input {
+    height: 40px;
+}
 
 
 /*页脚*/

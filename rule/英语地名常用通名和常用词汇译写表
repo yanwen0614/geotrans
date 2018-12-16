@@ -1,12 +1,12 @@
 en	cn	en2	cn2
-abbey	教堂	cascade	瀑布
+abbey(s)	教堂	cascade	瀑布
 airfield	机场	castle	堡
 airport	机场	cataract	瀑布
 anchorage	锚地	cave	洞、溶洞
 aqueduct	沟、渠	cay	礁、岛
 archipelago	群岛	cemetery	墓地
-arm	湾、河、克流	center	中
-atoll	环礁	central	中
+arm	湾、河、支流	center	中央
+atoll	环礁	central	中央
 bank(s)	浅滩	channel	水道、海峡、深海水道
 bar	沙洲	church	教堂
 barrow	山	city	城、市
@@ -23,7 +23,7 @@ bluff	陡崖	crater	火山口
 bog	沼泽	creek	溪、河
 borough	区、市	dam	坝
 bouin(e)	溪	deep	海渊
-branch	支流	delta	三角洲
+branch(s)	支流	delta	三角洲
 bridge	桥	department	省、州
 broad	湖沼	depression	洼地、海洼
 brook	河	depth	海渊
@@ -86,19 +86,19 @@ marsh	沼泽	plain	平原、深海平原
 massif	山	plateau	髙原、深海髙原
 meadow	草地、牧扬	platform	台地、海台
 middle	中	point	角
-moat	海壕	pond	池
-monument	纪念地	pool	池
-moor	荒地、沼泽	port	港
-moss	沼泽	post	站
-mound	丘	prairie	草原
-mount	山、崎	promontory	角
+moat(s)	海壕	pond	池
+monument(s)	纪念地	pool	池
+moor(s)	荒地、沼泽	port	港
+moss(s)	沼泽	post	站
+mound(s)	丘	prairie	草原
+mount(s)	山、崎	promontory	角
 mountain	山	province	省
 mountains	山、山脉	quarter	区
-mouth	河口	quay	码头
-mull	角	range	岭
-narrow	海峡	ranges	岭、山脉
+mouth(s)	河口	quay	码头
+mull(s)	角	range	岭
+narrow(s)	海峡	ranges	岭、山脉
 national park	国家公园	rapid(s)	急流
-neck	岬、角	ravine	沟谷
+neck(s)	岬、角	ravine	沟谷
 ness	角、海角	reef	礁
 new	新	reefs	群礁
 north	北	refuge	保护区
@@ -110,7 +110,7 @@ old	旧	riding	区
 outer	外	rift	裂谷
 outfall	河口	rise	丘、海隆
 parish	教区	river	河
-park	公园	road	路
+park(s)	公园	road	路
 pass	山口、水道、海山口	rock	山石
 passage	水道、海峡	ruin(s)	遗迹、遗址
 pate	点礁	run	河
@@ -144,7 +144,8 @@ state	州	well	井
 station	站	west	西
 step	阶地	western	西、西部
 strait	海峡、水道	wharf	码头
-strath	谷、河谷	wold	山地
+strath	谷、河谷	wold(s)	山地
 stream	河、溪	wood	林地
 street	街	suburb	郊区
-Railway Station	火车站
+Railway Station	火车站	monastery	修道院
+dale(s)	山谷

@@ -6,6 +6,28 @@ $(function () {
 
     //创建地图
     $(function () {
+        //var Geamap = new Geocoder();
+        $('#coordinatebutton').on('click', function () {
+            var str = document.getElementById("coordinateinput").value;
+            alert(str);
+        });
+
+            var arr = [104.293175, 35.7];
+            var rome = new ol.Feature({
+                geometry: new ol.geom.Point(ol.proj.fromLonLat(arr))
+            });
+            rome.setStyle(new ol.style.Style({
+                image: new ol.style.Icon({
+                    crossOrigin: 'anonymous',
+                    src: 'images/map/marker-icon-green.png'
+                })
+            }));
+            var vectorSource = new ol.source.Vector({
+                features: [rome]
+            });
+            var vectorLayer = new ol.layer.Vector({
+                source: vectorSource
+            });
         var scaleLineControl = new ol.control.ScaleLine();
         //设置中心
         var coor = ol.proj.transform([104.293175, 35.7], 'EPSG:4326', 'EPSG:3857');
@@ -33,6 +55,7 @@ $(function () {
                         url: "http://t2.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}"
                     })
                 }),
+                vectorLayer
 
                 /* new ol.layer.Tile({
                  title: "天地图卫星影像",
@@ -61,14 +84,24 @@ $(function () {
     $('#mapDiv').css('height', $('#centerpanel').css('height'));
     $('#mapDiv').resize();
 
+
     // 单点翻译动态操作.js
     var A=Singlepointtranslation();
+    //批量翻译动态操作.js
+    var B=Batchtranslation();
+    //系统管理动态操作.js
+    var C =Systemmanage();
+
     //切换页面
     $('.menu1').on('click', function () {
         $('#menu1Page').css('display', 'block');
         $('#menu2Page').css('display', 'none');
         $('#menu3Page').css('display', 'none');
         $('#mapDiv').css('display', 'block');
+
+        $('.btnLeftSel1').css('background-color', '#317ee8');
+        $('.btnLeftSel2').css('background-color', '#2667b3');
+        $('.btnLeftSel3').css('background-color', '#2667b3');
 
         //改变子菜单宽度
         UtilsFunc.changeMenuPanel(3);
@@ -84,6 +117,10 @@ $(function () {
         $('#menu3Page').css('display', 'none');
         $('#mapDiv').css('display', 'block');
 
+        $('.btnLeftSel1').css('background-color', '#2667b3');
+        $('.btnLeftSel2').css('background-color', '#317ee8');
+        $('.btnLeftSel3').css('background-color', '#2667b3');
+
         //改变子菜单宽度
         UtilsFunc.changeMenuPanel(2);
 
@@ -91,8 +128,7 @@ $(function () {
         $('#mapDiv').css('height', $('#centerpanel').css('height'));
         $('#mapDiv').resize();
 
-        //批量翻译动态操作.js
-        var B=Batchtranslation();
+
     });
     $('.menu3').on('click', function () {
         $('#menu1Page').css('display', 'none');
@@ -100,15 +136,47 @@ $(function () {
         $('#menu3Page').css('display', 'block');
         $('#mapDiv').css('display', 'none');
 
+        $('.btnLeftSel1').css('background-color', '#2667b3');
+        $('.btnLeftSel2').css('background-color', '#2667b3');
+        $('.btnLeftSel3').css('background-color', '#317ee8');
+
         //改变子菜单宽度
-        UtilsFunc.changeMenuPanel(1);
+        UtilsFunc.changeMenuPanel(2);
 
         //调节地图变形
-        $('#mapDiv').css('height', $('#centerpanel').css('height'));
-        $('#mapDiv').resize();
+        $('#centerpanel').css('height', $('#centerpanel').css('height'));
+        $('#centerpanel').resize();
+
+        var mm =$('#btnSpecialManage').click();
     });
-
-
+    //系统管理二级子菜单样式
+    $('#btnSpecialManage').hover(function(evt) {
+        $(this).css('background-image', "url('images/menu4/feedback-selected.png')");
+        $(this).find("label").css('color', '#007DF0');
+    }, function(evt) {
+        if ($('#sptablepanel').css('display') == 'none') {
+            $(this).css('background-image', "url('images/menu4/feedback.png')");
+            $(this).find("label").css('color', '');
+        }
+    });
+    $('#btnGeneralManage').hover(function(evt) {
+        $(this).css('background-image', "url('images/menu4/feedback-selected.png')");
+        $(this).find("label").css('color', '#007DF0');
+    }, function(evt) {
+        if ($('#getablepanel').css('display') == 'none') {
+            $(this).css('background-image', "url('images/menu4/feedback.png')");
+            $(this).find("label").css('color', '');
+        }
+    });
+    $('#btnRuleManage').hover(function(evt) {
+        $(this).css('background-image', "url('images/menu4/feedback-selected.png')");
+        $(this).find("label").css('color', '#007DF0');
+    }, function(evt) {
+        if ($('#ruletablepanel').css('display') == 'none') {
+            $(this).css('background-image', "url('images/menu4/feedback.png')");
+            $(this).find("label").css('color', '#007DF0');
+        }
+    });
 
     // 工具函数
     var UtilsFunc = {};

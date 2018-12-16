@@ -2,9 +2,7 @@ import pickle
 import xlrd
 import re
 
-__doc__ = '''
-载入规则到pkl文件
-'''
+__doc__ = '''载入规则到pkl文件'''
 
 
 class IPAMappingcn():
@@ -97,7 +95,7 @@ class PalceRule(RuleEN2CN):
             line = indexs.split("\t")
             self.ddd(line[0].lower(), line[1])
             try:
-                self.ddd(line[2].lower(), line[3][:-1])
+                self.ddd(line[2].lower(), line[3].strip())
             except:
                 pass
 
@@ -121,10 +119,10 @@ class SubPalceRule(RuleEN2CN):
             line = indexs.split("\t")
             self.ddd(line[0].lower(), line[1])
             try:
-                self.ddd(line[2].lower(), line[3][:-1])
+                self.ddd(line[2].lower(), line[3].strip())
             except :
                 pass
-        
+
     def ddd(self, key, value):
         value = value.split("、")[0]
         key, tag = self.checkkey(key)

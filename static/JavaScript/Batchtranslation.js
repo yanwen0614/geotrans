@@ -3,6 +3,7 @@
  */
 //批量翻译
 var Batchtranslation = function () {
+
     //上传文件
     $('#filePicker').uploadifive({
 
@@ -14,7 +15,7 @@ var Batchtranslation = function () {
         //'uploadScript': '/File/UploadFile',
         'queueID': 'uploadProgress1',//文件列队
         'queueSizeLimit': 100,//上传的最大数量
-        "fileType": "txt/*",
+        'fileType': "txt/*",
         'multi': true,
         "formData":{'enctype' : 'multipart/form-data'},
         'buttonText': '文件上传',//按钮显示文字
@@ -24,23 +25,24 @@ var Batchtranslation = function () {
             $('#uploadProgress1').css('display', 'block');
         },
         'onUploadComplete': function (file) {
-                alert('上传成功')
+            alert('翻译完成');
+            // 清空上传队列
+            $('#filePicker').uploadifive('clearQueue');
+            // 显示信息提示框，隐藏上传文件队列
+            $('#uploadTips1').css('display', 'block');
+            $('#uploadProgress1').css('display', 'none');
         }
+
     });
-    //保存
-    $('#btnPubSave1').click(function() {
-        // 清空上传队列
-        $('#filePicker').uploadifive('clearQueue');
-        // 显示信息提示框，隐藏上传文件队列
-        $('#uploadTips1').css('display', 'block');
-        $('#uploadProgress1').css('display', 'none');
-    });
-    //取消
-    $('#btnPubCancel1').click(function(){
-        $('#shpPicker').uploadifive('clearQueue');
-        // 显示信息提示框，隐藏上传文件队列
-        $('#uploadTips1').css('display','block');
-        $('#uploadProgress1').css('display','none');
+
+    function m(){
+        var value=document.getElementById("name").value;
+        var values="/download/"+value;
+        return values;
+        // alert(values);
+    }
+    $('#upload').click(function () {
+        document.getElementById("href").href=m();
     })
 
 }
