@@ -114,7 +114,7 @@ def translateBygoogle(word):
                }
         result = requests.get("""https://translate.google.cn/translate_a/single?client=t&sl=en&tl=zh-CN&hl=zh-CN&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&source=btn&ssel=0&tsel=0&kc=0""", params=param,headers=headers)
         #返回的结果为Json，解析为一个嵌套列表
-        result= result.json()
+        result = result.json()
         return result[0][0][0]
     js = Py4Js()
     bannum = 0

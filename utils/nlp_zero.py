@@ -797,11 +797,13 @@ class SentTree:
         trans = senttree.template.trans_res
         if trans == "":
             if tranlist:
-                trans = "".join(tranlist.transContexts()[idx:idx+senttree.template.length])
+                if isinstance(tranlist,Wordlist):
+                    tranlist = tranlist.transContexts()
+                trans = "".join(tranlist[idx:idx+senttree.template.length])
                 uniqu_list.update(range(idx,idx+senttree.template.length))
                 a = re.findall("[\u4E00-\u9FA5]",trans)
                 if len(a)>8:
-                    trans = "-".join(tranlist.transContexts()[idx:idx+senttree.template.length])
+                    trans = "-".join(tranlist[idx:idx+senttree.template.length])
             else:
                 trans = senttree.content
         elif trans == "error":

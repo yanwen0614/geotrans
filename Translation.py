@@ -19,7 +19,7 @@ Modify = Modify()
 
 class ipa(object):
     RuleMapping = MappingRule()
-    Syllable_probility   = dict()
+    Syllable_probility  = dict()
     TranslateClass = None
     isloadipafile = False
     ipafile = None
