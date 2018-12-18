@@ -1,5 +1,5 @@
 from Translation import translation
-from utils.webtrans import translateBygoogle
+from utils.webtrans import translateBygoogle,translateBybaidu
 from utils.Modify import Modify as Modify_
 from collections import defaultdict
 from re import findall
@@ -21,7 +21,6 @@ def getres(word,bannum=0):
     try:
         aa = client.dnnlm(word)
         return aa
-    
     except  ConnectionError as e:
         a = random.randint(1, bannum+3)
         print("sleep:"+str(a))
@@ -32,8 +31,10 @@ def getres(word,bannum=0):
 def rawtrans2mmtan(rawstr, mapdict,keys):
     res = []
     for key in keys:
+        key = " "+key+" "
         if key in rawstr:
-            for replacestr in mapdict[key]:
+            for replacestr in mapdict[key.replace(" ","")]:
+                replacestr = " "+replacestr+" "
                 subres = rawtrans2mmtan(str(rawstr).replace(key, replacestr, 1), mapdict,keys)
                 if isinstance(subres,str):
                     res.append(subres)
@@ -42,7 +43,7 @@ def rawtrans2mmtan(rawstr, mapdict,keys):
                     res.extend(subres)
                     #rplc = [ [replacestr]+subrplc for subrplc in subrplcs]
     if res == []:
-        res = rawstr.replace(" ","")
+        res = rawstr #.replace(" ","")
     return res
 
 def mergewp(p_w,rplc):
@@ -76,44 +77,60 @@ def mergewp(p_w,rplc):
             res.append(p_w[i])
     return res
 
+
+print(__name__)
 TR = translation("./rule")
 #TR.ipa.word2ipa_batch("tran.txt")
 Modify = Modify_()
-geofile = open("tran.txt","r",encoding="utf8")
-outfile = open("tranout.txt","w",encoding="utf8")
-for ii,line in enumerate(geofile):
-    line = Modify.phraseCleaning(line.strip()).lower()
-    translist = TR.phrasetranslit(line, ii)[-1]
-    translist_lit = TR.phrasetranslit(line, ii, checkrule=False)[-1]
-    baidu_trans = [  translateBygoogle(lll) for lll in line.rsplit()] # ['WERN', 'ÿ', 'cwrt', '莫特']
-
-    linedict = defaultdict(set)
-    for w,i,j,k in zip(line.rsplit(), translist.transContexts(), translist_lit.transContexts(), baidu_trans):
-        kk =  [ ww for ww in (i,j,k) if findall("[\u4e00-\u9fa5]",ww)]
-        if len(kk):
-            linedict[w] = set(kk)
-
-    res = TR.p.parse(line)[0]
-    res[0].get_templatestrans(TR.template_tran_hashdict)
-    tran, _, un = res[0].sent_tran(tranlist=line.rsplit())
-    keys = [ key for key in linedict.keys() if key in tran]
-    rrrr = rawtrans2mmtan(tran,linedict,keys)
-    rrrr = set(rrrr)
-    rplcs = set()
-    for k in keys:
-        rplcs.update(linedict[k])
-    for rl in rrrr:
-        rplc = [a for a in rplcs if a in rl]
-        aa = getres(rl)
-        words = [aaa["word"] for aaa in aa["items"]]
-        pro = [aaa["prob"] for aaa in aa["items"]]
-        ppl = aa["ppl"]
-        p_w = [(w,p) for w,p in zip(words,pro)]
-        #p_w = mergewp(p_w,rplc)
-        print(line, rl, p_w, ppl,sep="\t",file=outfile)
-    print(ii)
-    outfile.flush()
+geofile = open("翻译测试文件\\tran.txt","r",encoding="utf8")
 
 
 
-                    
+
+if __name__ == "__main__":
+    outfile = open("翻译测试文件\\tranout2.txt","w",encoding="utf8") #
+    for ii,line in enumerate(geofile):
+        line = Modify.phraseCleaning(line.strip()).lower()
+        translist = TR.phrasetranslit(line, ii)[-1]
+        translist_lit = TR.phrasetranslit(line, ii, checkrule=False)[-1]
+        baidu_trans = [  translateBybaidu(lll) \
+        for lll,tag in zip(translist_lit.SourceContexts(),translist_lit.transTags()) \
+        if tag ==0
+        ] # ['WERN', 'ÿ', 'cwrt', '莫特']
+
+        linedict = defaultdict(set)
+        for w,i,j,k in zip(line.rsplit(), translist.transContexts(), translist_lit.transContexts(), baidu_trans):
+            kk =  [ ww for ww in (i,j,k) if findall("[\u4e00-\u9fa5]|[0-9]",ww)]
+            if len(kk):
+                linedict[w] = set(kk)
+
+        res = TR.p.parse(line)[0]
+        res[0].get_templatestrans(TR.template_tran_hashdict)
+        tran, _, un = res[0].sent_tran(tranlist=line.rsplit())
+        keys = [ key for key in linedict.keys() if key in tran]
+        tran = (" "+tran+" ").replace("  "," ")
+        rrrr = rawtrans2mmtan(tran,linedict,keys)
+        rrrr = list(set(rrrr))
+        rplcs = set()
+        for k in keys:
+            rplcs.update(linedict[k])
+        res2select = []
+        print(ii)
+        for rl in rrrr:
+            rplc = [a for a in rplcs if a in rl]
+            aa = getres(rl)
+            words = [aaa["word"] for aaa in aa["items"]]
+            pro = [aaa["prob"] for aaa in aa["items"]]
+            ppl = aa["ppl"]
+            p_w = [(w,p) for w,p in zip(words,pro)]
+            #p_w = mergewp(p_w,rplc)
+            res2select.append((line, rl, p_w, ppl))
+            time.sleep(0.2)
+        res2select = sorted(res2select,key = lambda x:x[-1])
+        for resss in res2select:
+            print(*resss,sep="\t",file=outfile)
+        outfile.flush()
+else:
+    fileline = [ (ii,line) for ii,line in enumerate(geofile)]
+
+

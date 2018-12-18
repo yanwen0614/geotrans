@@ -799,7 +799,7 @@ class SentTree:
             if tranlist:
                 if isinstance(tranlist,Wordlist):
                     tranlist = tranlist.transContexts()
-                trans = "".join(tranlist[idx:idx+senttree.template.length])
+                trans = " ".join(tranlist[idx:idx+senttree.template.length])
                 uniqu_list.update(range(idx,idx+senttree.template.length))
                 a = re.findall("[\u4E00-\u9FA5]",trans)
                 if len(a)>8:

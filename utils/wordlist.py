@@ -220,7 +220,7 @@ class Word(str):
     trans_level = 0
     idx = 0
     transTag = int()
-    """音译 意译tag  未译 -1   音 0  省译 0.5 照搬 1  意 2"""
+    """音译 意译tag  未译 -1   音 0 实例库音译 0.1  省译 0.5 照搬 1  意 2"""
     InstanceTpye = int(-1) # 实例类别 专名实例 1 通名实例 2  0 介词或冠词 -1 未定
 
     def __init__(self, word):
