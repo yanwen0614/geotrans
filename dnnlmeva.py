@@ -93,15 +93,20 @@ if __name__ == "__main__":
         line = Modify.phraseCleaning(line.strip()).lower()
         translist = TR.phrasetranslit(line, ii)[-1]
         translist_lit = TR.phrasetranslit(line, ii, checkrule=False)[-1]
+
         baidu_trans = [  translateBybaidu(lll) \
         for lll,tag in zip(translist_lit.SourceContexts(),translist_lit.transTags()) \
         if tag ==0
         ] # ['WERN', 'ÿ', 'cwrt', '莫特']
-
+        instanTags = [0 for i in range(translist.length)]
+        for i in translist.instan_idx:
+            instanTags[i] = 1
         linedict = defaultdict(set)
-        for w,i,j,k in zip(line.rsplit(), translist.transContexts(), translist_lit.transContexts(), baidu_trans):
+        for w,i,j,k,tag in zip(line.rsplit(), translist.transContexts(), translist_lit.transContexts(), baidu_trans,instanTags):
             kk =  [ ww for ww in (i,j,k) if findall("[\u4e00-\u9fa5]|[0-9]",ww)]
-            if len(kk):
+            if tag ==1:
+                linedict[w] = {j}
+            elif len(kk):
                 linedict[w] = set(kk)
 
         res = TR.p.parse(line)[0]
