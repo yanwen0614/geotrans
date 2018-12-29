@@ -6,6 +6,7 @@ import time
 
 import numpy as np
 import tensorflow as tf
+import argparse
 
 
 from nmt import train
@@ -169,15 +170,63 @@ class nmt_w2p(object):
 
     return translation
 
-def main(jobdirs):
-  infer_data = ['b h e a l a i c h', 'd h e i r g', 's i s t e r s', 't u d w a l s', 's a l c o m b e', 'u r r', 'u', 'u r', 'l o w e z', 'e s', 'm o i r e', 'e t o n', 't a i l']
+
+def add_arguments(parser):
+  """Build ArgumentParser."""
+  parser.register("type", "bool", lambda v: v.lower() == "true")
+
+  # network
+  parser.add_argument("--mode", type=str, default="batch", help="single | batch ")
+  parser.add_argument("--word", type=str, default="", help="word to trans")
+  parser.add_argument("--infile", type=str,  help="word to trans")
+  parser.add_argument("--outfile", type=str, help="word to trans")
+
+def singleword(jobdirs,word):
+  infer_data = [word]
   trans =  nmt_w2p(jobdirs)
   res = trans.translation(infer_data)
-  print(res)
+  return res
 
+def batch(jobdirs,outfile,infile):
+    from utils.Modify import Modify
+    Modify = Modify()
+    trans =  nmt_w2p(jobdirs)
+    f = open(infile,mode="r",encoding="utf8")
+    wordlist = []
+    wordcount = []
+    for l in f:
+        a = Modify.modifyphrase(l)
+        a = a.rsplit()
+        wordlist.extend([" ".join(aa).lower() for aa in a])
+        wordcount.append(len(a))
+    res = trans.translation(wordlist)
+    tag = 0
+    ff = open(outfile,mode="w",encoding="utf8")
+    for r in res:
+        if wordcount[0]==0:
+            ff.write("\n")
+            wordcount = wordcount[1:]
+        wordcount[0]-=1
+        ff.write(r)
+        if wordcount[0]==0:
+            ff.write("\n")
+            wordcount = wordcount[1:]
+        else:
+            ff.write(",")
 
 if __name__ == "__main__":
-  jobdirs = "./tmp/nmt_model_w2p_2_64_200000_bi_at_nadam"
-  main(jobdirs)
+  nmt_parser = argparse.ArgumentParser()
+  add_arguments(nmt_parser)
+  FLAGS, unparsed = nmt_parser.parse_known_args()
+  print(FLAGS)
+  jobdirs = "./model/nmt_model_w2p_2_64_200000_bi_at_nadam"
+  if FLAGS.mode == "single":
+    word = ' '.join(FLAGS.word.lower())
+    res = singleword(jobdirs,word)
+    print(*res)
+  elif FLAGS.mode == "batch":
+    batch(jobdirs,FLAGS.outfile,FLAGS.infile)
+
+
 
 
